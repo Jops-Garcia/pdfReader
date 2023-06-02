@@ -3,11 +3,10 @@ import java.util.regex.Pattern;
 
 public class Payment {
     String barCode;
-    //TODO: transform to float
     String value;
     String info;
     
-    //this is for avoid calling functions with no need
+    //this is for avoid searching the same pattern multiple times
     Boolean hasValue;
     Boolean hasInfo;
     Boolean hasCode;

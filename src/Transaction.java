@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class Transaction {
     String date;
 
-    //this is for avoid calling functions with no need
+    //this is for avoid searching the same pattern multiple times
     Boolean hasDate;
 
     //constructor, setting default values

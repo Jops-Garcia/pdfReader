@@ -5,22 +5,19 @@ import org.apache.pdfbox.text.PDFTextStripperByArea;
 
 import java.io.File;
 
-//TODO: manipular erros (arquivo errado, não foi encontrado determinados dados, etc..), entrada pelo prompt de comando, pesquisar private (e classes sem metodos)
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String mydir = System.getProperty("user.dir");
-        mydir = mydir + "\\src\\";
-
         Account account = new Account();
         Payment payment = new Payment();
         Statement statement = new Statement();
         Transaction transaction = new Transaction();
 
+
+        String mydir = System.getProperty("user.dir");
+        mydir = mydir + "\\src\\";
         //Entrada manual
-
-
-        // ALTERE O NOME DO ARQUIVO AQUI -> |
+        // ALTERE O NOME DO ARQUIVO AQUI -> | <- CHANGE FILE NAME HERE
                                         //  V
         String ArqConfig = mydir + "documento_teste_dev.pdf"; //Deixe o arquivo dentro da pasta src ou altere a variavel "mydir"
         

@@ -7,7 +7,7 @@ public class Account {
     String agency;
     String number;
 
-    //this is for avoid calling functions with no need
+    //this is for avoid searching the same pattern multiple times
     Boolean hasName;
     Boolean hasAgency;
     Boolean hasNumber;

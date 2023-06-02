@@ -3,7 +3,8 @@ import java.util.regex.Pattern;
 
 public class Statement {
     String id;
-    //this is for avoid calling functions with no need
+    
+    //this is for avoid searching the same pattern multiple times
     Boolean hasId;
 
     //constructor, setting default values
