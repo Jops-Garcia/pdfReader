@@ -34,7 +34,7 @@ App: main, realiza a leitura do arquivo e chama utiliza de métodos de outras cl
 
 ## Funcionamento
 
-O programa inicia pegando o diretório atual, portanto *não remova da pasta src* sem que seja alterado o diretório na variável “mydir”, é recomendado que o documento esteja *junto com as classes*, caso haja alguma alteração há necessidade de alterar no código, segue a imagem em exemplo.
+O programa inicia pegando o diretório atual, portanto ***não remova da pasta src*** sem que seja alterado o diretório na variável “mydir”, é recomendado que o documento esteja ***junto com as classes***, caso haja alguma alteração há necessidade de alterar no código, segue a imagem em exemplo.
 
 (IMAGEM ARQVO ENTRADA)
 
