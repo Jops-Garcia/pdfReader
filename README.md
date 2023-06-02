@@ -15,7 +15,9 @@ para customizar a estrutura, abra `.vscode/settings.json`
 
 Antes de iniciar é necessário verificar se possui o JDK devidamente instalado, pode ser encontrado em https://www.oracle.com/br/java/technologies/downloads/
 
-Também é preciso adicionar o arquivo JAR contido na pasta `lib` no projeto java, trata-se da biblioteca utilizada, PDFBox. Dependendo da IDE utilizada é feito de forma diferente, no vscode basta adicionar à pasta `lib` (Já está adicionado, ou seja só clonar ou baixar esse repositório) ou caso tenha problemas, ir na opção “Referenced libraries” e adicionar com o navegador de arquivos. O arquivo JAR pode ser encontrado na pasta citada e também existe a possibilidade de baixá-lo no site oficial https://pdfbox.apache.org/download.html a versão utilizada foi a PDFBox 3.0.0-alpha3. 
+Também é preciso adicionar o arquivo JAR contido na pasta `lib` no projeto java, trata-se da biblioteca utilizada, PDFBox. Dependendo da IDE utilizada é feito de forma diferente, no vscode basta adicionar à pasta `lib` (Já está adicionado, ou seja só clonar ou baixar esse repositório) ou caso tenha problemas, ir na opção “Referenced libraries” e adicionar com o navegador de arquivos. O arquivo JAR pode ser encontrado na pasta citada e também existe a possibilidade de baixá-lo no site oficial https://pdfbox.apache.org/download.html a versão utilizada foi a PDFBox 3.0.0-alpha3.
+
+O PDF já está na pasta src.
 
 # Como funciona
 
