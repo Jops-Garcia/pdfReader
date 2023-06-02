@@ -34,7 +34,27 @@ App: main, realiza a leitura do arquivo e chama utiliza de métodos de outras cl
 
 ## Funcionamento
 
-O
+O programa inicia pegando o diretório atual, portanto *não remova da pasta src* sem que seja alterado o diretório na variável “mydir”, é recomendado que o documento esteja *junto com as classes*, caso haja alguma alteração há necessidade de alterar no código, segue a imagem em exemplo.
+
+(IMAGEM ARQVO ENTRADA)
+
+utilizando a biblioteca PDFBox o arquivo é lido e percorrido linha por linha, chamando os métodos de busca de cada classe passando a linha como argumento para verificar se há a existência dos dados requeridos.
+
+(IMAGEM FOR BUSCA NA LINHA)
+
+
+Após entrar no método, em casos que possuem mais que um dado, a linha lida é encaminhada novamente para outros métodos, desta vez específicos para encontrar o necessário 
+
+(IMAGEM VARIOS SEARCH)
+
+Ele verifica se já foi encontrada a variável desejada, se não, prossegue com a busca, quando encontrado, seta a variável que auxilia na validação se o dado já foi preenchido então edita (removendo espaços desnecessários e em alguns casos o resto da string) e atribui o texto à variável.
+
+(IMAGEM DATA SEARCH)
+
+Após percorrer todo o documento, ocorre a impressão dos dados encontrados 
+
+(IMAGEM SAIDA)
+
 
 
 
