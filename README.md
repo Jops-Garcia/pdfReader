@@ -34,9 +34,9 @@ App: main, realiza a leitura do arquivo e chama utiliza de métodos de outras cl
 
 ## Funcionamento
 
-O programa inicia pegando o diretório atual, portanto ***não remova da pasta src*** sem que seja alterado o diretório na variável “mydir”, é recomendado que o documento esteja ***junto com as classes***, caso haja alguma alteração há necessidade de alterar no código, segue a imagem em exemplo.
+O programa inicia pegando o diretório atual, portanto ***NÃO REMOVA DA PASTA SRC*** sem que seja alterado o diretório na variável “mydir”, é recomendado que o documento esteja ***JUNTO COM AS CLASSES***, caso haja alguma alteração há necessidade de alterar no código, segue a imagem em exemplo.
 
-(IMAGEM ARQVO ENTRADA)
+![image](https://github.com/Jops-Garcia/pdfReader/assets/56653059/22bcc89b-cb80-48cc-b482-d214fac60591)
 
 utilizando a biblioteca PDFBox o arquivo é lido e percorrido linha por linha, chamando os métodos de busca de cada classe passando a linha como argumento para verificar se há a existência dos dados requeridos.
 
