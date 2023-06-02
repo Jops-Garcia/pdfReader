@@ -2,7 +2,7 @@
 ## Sobre
 Esta é a resposta  de um teste prático com o objetivo de extrair informações de um documento PDF, foi realizado utilizando a linguagem de programação Java, a IDE Visual Studio Code e a biblioteca PDFBox.
 
-##Estrutura de arquivos (vscode)
+## Estrutura de arquivos (vscode)
 No Visual Studio Code, quando trabalhamos com Java, por padrão há duas pastas, onde:
 
 - `src`: é a pasta que contém os recursos (classes e arquivo PDF)
