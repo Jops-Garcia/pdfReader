@@ -40,20 +40,20 @@ O programa inicia pegando o diretório atual, portanto ***NÃO REMOVA DA PASTA S
 
 utilizando a biblioteca PDFBox o arquivo é lido e percorrido linha por linha, chamando os métodos de busca de cada classe passando a linha como argumento para verificar se há a existência dos dados requeridos.
 
-(IMAGEM FOR BUSCA NA LINHA)
+![image](https://github.com/Jops-Garcia/pdfReader/assets/56653059/bd159656-126e-433b-b3eb-8d560329a310)
 
 
 Após entrar no método, em casos que possuem mais que um dado, a linha lida é encaminhada novamente para outros métodos, desta vez específicos para encontrar o necessário 
 
-(IMAGEM VARIOS SEARCH)
+![image](https://github.com/Jops-Garcia/pdfReader/assets/56653059/b397c36c-26cf-4fd1-a7b5-89c5b5f57698)
 
 Ele verifica se já foi encontrada a variável desejada, se não, prossegue com a busca, quando encontrado, seta a variável que auxilia na validação se o dado já foi preenchido então edita (removendo espaços desnecessários e em alguns casos o resto da string) e atribui o texto à variável.
 
-(IMAGEM DATA SEARCH)
+![image](https://github.com/Jops-Garcia/pdfReader/assets/56653059/8a33e953-5df4-425c-bfa2-f3c1c97de174)
 
 Após percorrer todo o documento, ocorre a impressão dos dados encontrados 
 
-(IMAGEM SAIDA)
+![image](https://github.com/Jops-Garcia/pdfReader/assets/56653059/ad8f4f38-7ba6-4ec8-b4f8-d685169e95a9)
 
 
 
