@@ -42,8 +42,6 @@ public class App {
                     payment.search(line);
                     transaction.search(line);
                     
-                    
-                    //System.out.println(line);
 
                 }
                 System.out.printf("\n\n|-----------------------Identificação no extrato----------------------|\n");

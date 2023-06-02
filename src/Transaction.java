@@ -27,7 +27,7 @@ public class Transaction {
 
             if(matchFound) {
                 this.hasDate=true;
-                //everything after Nome: and removing spaces before the first character
+                //removing spaces before the first character
                 this.date = matcher.group(0).trim();
             } 
         }
